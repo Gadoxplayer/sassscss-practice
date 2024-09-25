@@ -8,7 +8,10 @@ body {
   color: #222222;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Palatino Linotype", Georgia, serif;
 }
 

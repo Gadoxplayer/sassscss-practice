@@ -1,4 +1,4 @@
-@import "variables"; 
+@import "variables";
 @import "mixin";
 
 @include fancy-links;
@@ -8,7 +8,10 @@ body {
   color: $text-color;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: $headline-font;
 }
 
@@ -53,9 +56,8 @@ a {
       color: $menu-item-color;
     }
   }
-  
-  #logo {
 
+  #logo {
   }
 }
 
