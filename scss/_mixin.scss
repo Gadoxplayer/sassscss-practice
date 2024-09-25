@@ -8,6 +8,12 @@
     -moz-box-shadow: $shadow;
     -webkit-box-shadow: $shadow;
   }
+
+  @mixin apply-to-ie-6 {
+    * html {
+        @content;
+    }
+  }
   
   @mixin large-text {
     font: {
