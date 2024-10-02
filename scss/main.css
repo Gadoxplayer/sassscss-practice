@@ -16,9 +16,9 @@ a {
 
 body {
   font-family: "Allegreya Sans", Arial, sans-serif;
-  color: #222222;
-  background-color: hsl(60, 50%, 100%);
+  color: #000;
   font-size: 1.125em;
+  background-color: #fff;
 }
 @media only screen and (max-width: 960px) {
   body {
@@ -43,10 +43,10 @@ p {
 }
 
 a {
-  color: #f27731;
+  color: #d26741;
 }
 a:hover {
-  color: #ca510d;
+  color: #a04626;
 }
 
 .sub-title {
@@ -82,11 +82,11 @@ a:hover {
 #header {
   border-radius: 8px;
   border: 1px solid #999;
-  box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
-  -moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
-  -webkit-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
+  box-shadow: 2px 0px 4px #999, 1px 1px 6px #d26741;
+  -moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #d26741;
+  -webkit-box-shadow: 2px 0px 4px #999, 1px 1px 6px #d26741;
   height: 60px;
-  background-color: #170a48;
+  background-color: #372a27;
 }
 #header #main-menu li {
   display: inline;
