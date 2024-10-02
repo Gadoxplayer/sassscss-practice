@@ -16,6 +16,8 @@
 body {
   font-family: $text-font;
   color: $text-color;
+  //functions
+  background-color: hsl(60, 50%, 100%);
   // @media only screen and (max-width: 960px) {
   //   font-size: 125%;
   // }
@@ -41,6 +43,9 @@ p {
 
 a {
   color: $link-color;
+  &:hover {
+    color: darken($link-color, 15%)
+  }
 }
 
 .warning-button {
@@ -70,6 +75,14 @@ a {
     }
     a {
       color: $menu-item-color;
+      border-bottom: 1px solid transparentize($color: #fefefe, $amount: 1);
+      transition: border-bottom 0.5s;
+      transition-timing-function: ease-in-out;
+      padding: 6px 8px;
+
+      &:hover {
+        border-bottom: 1px solid opacify($color: #fefefe, $amount: .5);
+      }
     }
   }
 
