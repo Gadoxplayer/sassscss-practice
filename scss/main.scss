@@ -1,7 +1,7 @@
 
+@import "partials/functions";
 @import "partials/variables";
 @import "partials/mixin";
-
 // @import "partials/variables", "partials/mixin";
 // @import url();
 // @import "http://";
@@ -21,6 +21,7 @@ body {
   // @media only screen and (max-width: 960px) {
   //   font-size: 125%;
   // }
+  font-size: em(18px);
   @include large-screens {
     font-size: 125%;
   }
@@ -101,13 +102,27 @@ a {
   margin-right: auto;
 
   #content {
+    float: left;
+    width: 6*$col;
   }
 
   #sidebar {
+    float: right;
+    width: 2*$col;
+
+    li {
+      list-style-type: none;
+      padding: em(16px) em(20px);
+      border-bottom: 1px dashed #999;
+
+      &:hover {
+        background-color: #efefef;
+      }
+    }
   }
 }
 
 #footer {
   height: $footer-height;
-  background-color: $thernary-color;
+  //background-color: $thernary-color;
 }

@@ -9,6 +9,7 @@ body {
   font-family: "Allegreya Sans", Arial, sans-serif;
   color: #222222;
   background-color: hsl(60, 50%, 100%);
+  font-size: 1.125em;
 }
 @media only screen and (max-width: 960px) {
   body {
@@ -85,7 +86,23 @@ a:hover {
     max-width: 960px;
   }
 }
+#main #content {
+  float: left;
+  width: 69.75%;
+}
+#main #sidebar {
+  float: right;
+  width: 23.25%;
+}
+#main #sidebar li {
+  list-style-type: none;
+  padding: 1em 1.25em;
+  border-bottom: 1px dashed #999;
+}
+#main #sidebar li:hover {
+  background-color: #efefef;
+}
+
 #footer {
   height: 90px;
-  background-color: #ccf062;
 }/*# sourceMappingURL=main.css.map */
