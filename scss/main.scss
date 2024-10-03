@@ -13,6 +13,36 @@
 
 @include fancy-links;
 
+@for $i from 1 through 6 { // can use to insteead of through when you dont want to include the last value
+  .col-#{$i} {
+    width: $i * 2em;
+  }
+}
+
+$speakers: bob-banker, patty-plume, sandra-smith;
+
+@each $speaker in $speakers {
+  .#{speaker}-profile {
+    background-image: url('/img/#{$speakers}.png');
+  }
+}
+
+$font-sizes: (tiny: 8px, small: 11px, medium: 13px, lage: 18px);
+
+@each $name, $size in $font-sizes {
+  .#{$name} {
+    font-size: $size;
+  }
+}
+
+$j: 2;
+@while $j <= 8 {
+  .piture-#{$j} {
+    width: $j * 10%;
+  }
+  $j: $j + 2;
+}
+
 .error {
   color: red;
 }

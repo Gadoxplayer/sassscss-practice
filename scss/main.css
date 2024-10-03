@@ -5,6 +5,58 @@ a {
   text-decoration: none;
 }
 
+.col-1 {
+  width: 2em;
+}
+
+.col-2 {
+  width: 4em;
+}
+
+.col-3 {
+  width: 6em;
+}
+
+.col-4 {
+  width: 8em;
+}
+
+.col-5 {
+  width: 10em;
+}
+
+.col-6 {
+  width: 12em;
+}
+
+.speaker-profile {
+  background-image: url("/img/bob-banker, patty-plume, sandra-smith.png");
+}
+
+.speaker-profile {
+  background-image: url("/img/bob-banker, patty-plume, sandra-smith.png");
+}
+
+.speaker-profile {
+  background-image: url("/img/bob-banker, patty-plume, sandra-smith.png");
+}
+
+.tiny {
+  font-size: 8px;
+}
+
+.small {
+  font-size: 11px;
+}
+
+.medium {
+  font-size: 13px;
+}
+
+.lage {
+  font-size: 18px;
+}
+
 .error, .cta-button, .super-cta-button, .critical-error {
   color: red;
 }
